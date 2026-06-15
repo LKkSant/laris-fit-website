@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import logo from "../assets/logo.png";
 
-export default function navbar() {
+export default function Navbar() {
   const [open, setOpen] = useState(false);
 
 // 👇 valores padrão para não quebrar o app
