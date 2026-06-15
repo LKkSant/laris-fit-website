@@ -1,6 +1,6 @@
-import navbar from "../components/navbar";
-import hero from "../components/hero";
-import meals from "../components/meals";
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import Meals from "../components/Meals";
 import Benefits from "../components/Benefits";
 import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
@@ -11,12 +11,12 @@ import Gallery from "../components/Gallery";
 export default function Home() {
   return (
     <>
-     <navbar />
-<hero />
-<Gallery />
-<Benefits />
-<HowItWorks />
-<meals />
+     <Navbar />
+     <Hero />
+     <Gallery />
+     <Benefits />
+     <HowItWorks />
+     <Meals />
 <Testimonials />
 <CTA />
 <Footer />

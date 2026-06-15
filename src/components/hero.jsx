@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-export default function Hero() {
+export default function hero() {
   const navigate = useNavigate();
 
   const abrirWhatsApp = () => {
