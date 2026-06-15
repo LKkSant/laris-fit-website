@@ -1,6 +1,6 @@
-import navbar from "../components/navbar";
-import hero from "../components/hero";
-import meals from "../components/meals";
+import Navbar from "../components/navbar"; // Mudou para N maiúsculo
+import Hero from "../components/hero";     // Mudou para H maiúsculo
+import Meals from "../components/meals";   // Mudou para M maiúsculo
 import Benefits from "../components/Benefits";
 import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
@@ -11,15 +11,15 @@ import Gallery from "../components/Gallery";
 export default function Home() {
   return (
     <>
-     <navbar />
-     <hero />
-     <Gallery />
-     <Benefits />
-     <HowItWorks />
-     <meals />
-<Testimonials />
-<CTA />
-<Footer />
-</>
+      <Navbar /> {/* Pronto! */}
+      <Hero />   {/* Pronto! */}
+      <Gallery />
+      <Benefits />
+      <HowItWorks />
+      <Meals />  {/* Pronto! */}
+      <Testimonials />
+      <CTA />
+      <Footer />
+    </>
   );
 }
