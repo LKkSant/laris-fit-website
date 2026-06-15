@@ -64,31 +64,8 @@ export default function navbar() {
               Peça Agora
             </a>
           </div>
-        )}
-      
-      {/* Barra inferior mobile (SEGURA agora) */}
-      <div className="fixed bottom-0 left-0 right-0 bg-white shadow-[0_-4px_20px_rgba(0,0,0,0.1)] p-4 md:hidden z-50">
-        <div className="flex justify-between items-center">
+        )} 
 
-          <div>
-            <p className="text-sm text-gray-500">Total</p>
-            <p className="font-bold text-green-600">
-              R$ {valorTotal.toFixed(2)}
-            </p>
-          </div>
-
-          <button
-            disabled={totalMarmitas < 5}
-            onClick={finalizarPedido}
-            className={`px-5 py-3 rounded-full text-white font-bold ${
-              totalMarmitas >= 5 ? "bg-green-600" : "bg-gray-400"
-            }`}
-          >
-            Finalizar
-          </button>
-
-        </div>
-</div>
 
       </div>
     </header>
